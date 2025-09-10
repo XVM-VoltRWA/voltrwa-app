@@ -1,0 +1,48 @@
+
+# Core RWA Marketplace Functions
+
+# Asset Management
+[functions.create-asset]
+verify_jwt = false
+[functions.get-assets]
+verify_jwt = false
+
+# Marketplace
+[functions.get-marketplace-assets]
+verify_jwt = false
+[functions.escrow-token]
+verify_jwt = false
+[functions.purchase-from-escrow]
+verify_jwt = false
+[functions.remove-from-sale]
+verify_jwt = false
+
+# Transaction Management
+[functions.transaction-status]
+verify_jwt = false
+[functions.poll-pending-transactions]
+verify_jwt = false
+[functions.auto-transfer-token]
+verify_jwt = false
+
+# Token Lifecycle
+[functions.complete-token-issuance]
+verify_jwt = false
+[functions.complete-minting]
+verify_jwt = false
+[functions.auto-mint-token]
+verify_jwt = false
+[functions.mint-token-to-holder]
+verify_jwt = false
+[functions.create-trustline]
+verify_jwt = false
+
+# XUMM Integration
+[functions.xumm-connect]
+verify_jwt = false
+[functions.xumm-status]
+verify_jwt = false
+
+# Manual Fix Functions (rarely used)
+[functions.fix-escrow-status]
+verify_jwt = false
